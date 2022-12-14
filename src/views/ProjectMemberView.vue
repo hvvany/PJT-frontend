@@ -2,8 +2,7 @@
   <div>
     <NavBar_detail />
     <div class="container mt-4">
-      <b-breadcrumb :items="items"></b-breadcrumb>
-      <h3 class="title fw-bold my-5">Project Member</h3>
+      <h3 class="title fw-bold my-5">ProjectMember</h3>
       <div class="d-flex flex-column justify-content-center align-items-center">
 <!-- //        <form @submit.prevent="postmember" class="form1 mb-5 input-wrap" v-if="(teamLeader.user===user.email)"> -->
         <form
@@ -86,20 +85,6 @@ export default {
   components: { NavBar_detail },
   data() {
     return {
-      items: [
-          {
-            text: 'Home',
-            to: { name: 'projectindex' }
-          },
-          {
-            text: 'Project',
-            to: { name: 'projectdetail' }
-          },
-          {
-            text: 'Member',
-            active: true
-          }
-        ],
       members: [
         {
           id: '',
