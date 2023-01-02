@@ -158,6 +158,12 @@
 <br>
 <br>
 
+## 크리스마스 업데이트
+![](https://velog.velcdn.com/images/hvvany/post/d121516d-0e46-4fac-bf44-b97cfb6b0665/image.gif)
+
+<br>
+<br>
+
 ## 개발 이슈
 
 ![](https://velog.velcdn.com/images/hvvany/post/d4191896-9da1-4eb4-beeb-1ab7d0738131/image.png)
