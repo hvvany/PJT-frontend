@@ -126,10 +126,10 @@ export default {
       this.start_at = response.data.start_at
       this.end_at = response.data.end_at
       this.goal = response.data.goal
-      for (const resSkill of response.data.skill.split(' ')) {
+      for (const resSkill of response.data.skill.split(';')) {
         this.skill.push({ name: resSkill })
       }
-      for (const resFunctions of response.data.functions.split(' ')) {
+      for (const resFunctions of response.data.functions.split(';')) {
         this.functions.push({ content: resFunctions })
       }
     })
